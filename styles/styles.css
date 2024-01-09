@@ -4,6 +4,8 @@
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins",sans-serif;
     --fonte-regular: 400;
     --fonte-medium: 500;
@@ -13,4 +15,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
