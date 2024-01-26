@@ -132,20 +132,6 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
-    
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    const swiper2 = new Swiper('.swiper', {
-    speed: 400,
-    spaceBetween: 10,
-    slidesPerView: 3,
-    delay: 3000,
-    pagination: {
-        el:'.swiper-pagination',
-        type:'bullets',
-    },
-    });
-</script> 
 
     <div class="card">
         <div class="card__descricao">
@@ -168,6 +154,54 @@
             
         </div>
     </div>
+    
+    <section class="topicos">
+        <h2 class="topicos__titulo">Topicos visitados recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Startups</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">HTML & CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Python</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">OO</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Java</a>
+            </li>
+        </ul>
+    </section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper2 = new Swiper('.swiper', {
+    speed: 400,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    delay: 3000,
+    pagination: {
+        el:'.swiper-pagination',
+        type:'bullets',
+    },
+    });
+</script> 
+
+    
     
     </main>
 
